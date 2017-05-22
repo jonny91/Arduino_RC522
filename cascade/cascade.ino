@@ -13,8 +13,8 @@ void setup()
   pinMode(2,OUTPUT);
   pinMode(3,INPUT);
 
-  digitalWrite(3,LOW)
-  digitalWrite(2,LOW)
+  digitalWrite(3,LOW);
+  digitalWrite(2,LOW);
 }
 
 void loop()
@@ -34,7 +34,7 @@ void loop()
           )
       {
         Serial.println("pass");
-        digitalWrite(2,HIGH)
+        digitalWrite(2,HIGH);
       }
     }
     //选卡，可返回卡容量（锁定卡片，防止多数读取），去掉本行将连续读卡
